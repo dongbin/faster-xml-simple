@@ -64,6 +64,7 @@ class RegressionTest < FasterXSTest
 
   end
 
+
   def test_cdata
     str = "<a> <b><![CDATA[ a ]]></b> </a>"
     expected = {  "a" => { "b" => " a "}}
