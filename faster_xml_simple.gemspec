@@ -11,12 +11,11 @@ Gem::Specification.new do |s|
   s.version           = Gem::Version.new("0.6.0")
   s.summary           = "A libxml based replacement for XmlSimple"
   s.description       = s.summary
-  s.email             = 'michael@koziarski.com'
-  s.author            = 'Michael Koziarski'
+  s.email             = 'dongbin.cn@gmail.com'
+  s.author            = 'Michael Koziarski, Dong Bin, Lin Jian'
   s.has_rdoc          = true
   s.extra_rdoc_files  = %w(README COPYING)
-  s.homepage          = 'http://fasterxs.rubyforge.org'
-  s.rubyforge_project = 'fasterxs'
+  s.homepage          = 'http://github.com/dongbin/faster-xml-simple/tree/master'
   s.files             = FileList['Rakefile', 'lib/**/*.rb']
   s.test_files        = Dir['test/**/*']
 
