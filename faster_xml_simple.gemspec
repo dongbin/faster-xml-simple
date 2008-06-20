@@ -8,7 +8,7 @@ require 'rake/gempackagetask'
 
 Gem::Specification.new do |s|
   s.name              = 'faster_xml_simple'
-  s.version           = Gem::Version.new("0.6.0")
+  s.version           = Gem::Version.new("0.6.1")
   s.summary           = "A libxml based replacement for XmlSimple"
   s.description       = s.summary
   s.email             = 'dongbin.cn@gmail.com'
