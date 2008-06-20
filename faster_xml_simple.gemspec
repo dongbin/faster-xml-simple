@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
   s.files             = FileList['Rakefile', 'lib/**/*.rb']
   s.test_files        = Dir['test/**/*']
 
+  s.rubyforge_project = 'fasterxs'
+
   s.add_dependency 'libxml-ruby', '>= 0.3.8.4'
   s.rdoc_options  = ['--title', "",
                        '--main',  'README',
