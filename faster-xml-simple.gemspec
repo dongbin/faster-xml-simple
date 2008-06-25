@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.summary           = "A libxml based replacement for XmlSimple"
   s.description       = s.summary
   s.email             = 'dongbin.cn@gmail.com'
-  s.author            = ['Michael Koziarski', 'Dong Bin', 'Lin Jian']
+  s.authors            = ['Michael Koziarski, Dong Bin, Lin Jian']
   s.has_rdoc          = true
   s.extra_rdoc_files  = %w(README COPYING)
   s.homepage          = 'http://github.com/dongbin/faster-xml-simple/tree/master'
