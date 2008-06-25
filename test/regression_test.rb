@@ -71,4 +71,18 @@ class RegressionTest < FasterXSTest
     assert_equal expected, FasterXmlSimple.xml_in(str)
 
   end
+  
+  def test_remove_comment
+    str = %Q(<r>
+  <a>a</a>
+  <!--<b>b</b>-->
+  <titles>
+    <title>1</title>
+    <title>2</title>
+    <!--<title>3</title>-->
+  </titles>
+</r>)
+    expected = {"r" => {"a" => "a", "titles"=>{"title"=>["1", "2"]}} }
+    assert_equal expected, FasterXmlSimple.xml_in(str)
+  end
 end

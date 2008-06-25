@@ -81,7 +81,7 @@ class FasterXmlSimple
         element.inject(result) do |hash, child|
           unless child.text?
             child_result = collapse(child)
-            (hash[child.name] ||= []) << child_result
+            (hash[child.name] ||= []) << child_result unless child.comment?
           end
           hash
         end
