@@ -205,8 +205,7 @@ class FasterXmlSimple
       if string == ''
         string = ' '
       end
-      # Add prefix 'LibXML' for windows platform
-      LibXML::XML::Parser.string(string).parse
+      XML::Parser.string(string).parse
     end
 end
 
