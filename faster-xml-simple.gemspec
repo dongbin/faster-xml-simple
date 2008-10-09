@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = 'faster-xml-simple'
-  s.version           = "0.6.3"
+  s.version           = "0.6.4"
   s.summary           = "A libxml based replacement for XmlSimple"
   s.description       = s.summary
   s.email             = 'dongbin.cn@gmail.com'
